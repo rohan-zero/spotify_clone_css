@@ -25,6 +25,7 @@ body{
     flex: 1;
     overflow: auto;
     border-radius: 1rem;
+    margin-top: 0.5rem;
 
 }
 .music-player{
@@ -121,6 +122,7 @@ a{
     font-size: .8rem;
     opacity: .8;
     font-weight: 500;
+    margin-bottom: 1rem;
     
 }
 
@@ -131,7 +133,52 @@ a{
     font-weight: 600;
     border-radius: 1rem;
     padding: 0.25rem 0.75rem;
-    margin: 1rem .75rem 0.2rem 0.75rem;
+    margin: 0rem .75rem 0.2rem 0.75rem;
     height: 2rem;
+
     width: fit-content;
+    
+}
+
+.dark{
+    background-color:#000000;
+    color: #fff;
+    align-items: center;
+    width: fit-content;
+    
+    padding: 0.5rem 0.75rem;
+
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+
+.sticky-nav-icons img{
+    
+    padding: 1rem .5rem;
+}
+
+.sticky-nav-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sticky-nav-options i{
+     
+     margin-right: 2rem;
+}
+
+@media (max-width: 1000px)
+{
+    .hide{
+        display: n;
+    }
 }
