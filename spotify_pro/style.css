@@ -258,6 +258,7 @@ a{
 .album img{
     width: 3.5rem;
     border-radius: .25rem;
+    margin-left: .5rem;
 }
 
 .player{
